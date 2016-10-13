@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WAS7Monitor Plug-in
+Bundle-SymbolicName: WAS7Monitor
+Bundle-Version: 1.0.0
+Bundle-Activator: was7monitor.Activator
+Bundle-Vendor: Inside WAS 7
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.equinox.registry,
+ org.eclipse.osgi,
+ org.eclipse.equinox.common,
+ org.eclipse.core.jobs,
+ org.eclipse.core.runtime,
+ org.eclipse.core.runtime.compatibility
+Eclipse-LazyStart: false

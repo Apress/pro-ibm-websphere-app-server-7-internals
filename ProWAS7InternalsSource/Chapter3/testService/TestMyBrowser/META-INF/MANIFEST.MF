@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: secondWAS7test
+Bundle-SymbolicName: org.testwas7.test2;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: Inside WAS7
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.swt,
+ org.eclipse.core.runtime,
+ org.eclipse.core.runtime.compatibility

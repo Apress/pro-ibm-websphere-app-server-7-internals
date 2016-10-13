@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin id="MyWAS7Component" name="WS_MYCOMPONENT" provider-name="WebSphere Application Server 7 Pro Internals" version="1.0.0">
+   <extension point="com.ibm.wsspi.extension.applicationserver-startup">
+      <components>
+         <component startup="8197" component-id="WS_MYCOMPONENT" class="mywas7component.MyComponent"  processType="Servant" startup-mode="dependency" >
+         </component>
+      </components>
+   </extension>
+ </plugin>

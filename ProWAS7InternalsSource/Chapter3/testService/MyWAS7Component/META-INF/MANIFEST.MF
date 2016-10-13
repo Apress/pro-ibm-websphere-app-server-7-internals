@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MyWAS7Component Plug-in
+Bundle-SymbolicName: MyWAS7Component;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: mywas7component.Activator
+Bundle-Vendor: WebSphere Application Server 7 Pro Internals
+Bundle-Localization: plugin
+Require-Bundle: com.ibm.ws.runtime,
+ com.ibm.ws.bootstrap,
+ org.eclipse.core.runtime,
+ org.eclipse.emf,
+ org.eclipse.emf.ecore
+Eclipse-LazyStart: true

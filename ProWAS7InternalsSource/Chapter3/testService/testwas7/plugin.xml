@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+	id="org.testwas7.test2" 
+         name="secondWAS7test" 
+         version="1.0.0" 
+         provider-name="Inside WAS7">
+
+    <extension point="org.eclipse.core.runtime.applications" id="MyBrowser">
+        <application>
+            <run class="org.testwas7.MyBrowser"/>
+        </application>
+    </extension>
+
+    <requires>
+        <import plugin="org.eclipse.swt"/>
+        <import plugin="org.eclipse.core.runtime"/>
+        <import plugin="org.eclipse.core.runtime.compatibility"/>
+    </requires>
+</plugin>
